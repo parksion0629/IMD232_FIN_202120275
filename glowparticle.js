@@ -38,7 +38,6 @@ export class GlowParticle {
 
     ctx.beginPath();
     const g = ctx.createRadialGradient(
-      // 수정된 부분: ct를 ctx로 수정
       this.x,
       this.y,
       this.radius * 0.01,
